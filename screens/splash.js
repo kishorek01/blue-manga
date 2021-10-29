@@ -1,9 +1,14 @@
 import React from 'react';
-import { Button, StyleSheet, View } from 'react-native';
+import { Button, StyleSheet, View, Text } from 'react-native';
 import LottieView from 'lottie-react-native';
-
+import {API_KEY} from "@env";
 export default class Splash extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {};
+      }
   componentDidMount() {
+      this.render()
     this.animation.play();
     // Or set a specific startFrame and endFrame with:
     // this.animation.play(30, 120);
@@ -13,6 +18,11 @@ export default class Splash extends React.Component {
     this.animation.reset();
     this.animation.play();
   };
+
+  changePage(){
+      console.log(this.props);
+    // this.props.navigation.navigate('Login');
+  }
 
   render() {
     return (
@@ -28,9 +38,10 @@ export default class Splash extends React.Component {
           }}
           loop={true}
         autoPlay
-          source={require('../assets/splash.json')}
+        // onAnimationFinish = {() => this.changePage()}
+
+        source={require('../assets/splash.json')}
         />
-   
       </View>
     );
   }

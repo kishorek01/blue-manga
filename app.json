@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "blue-manga",
+    "name": "Blue Manga",
     "slug": "blue-manga",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,10 +20,12 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.kk.blueManga",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "favicon": "./assets/favicon.png"

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "679919396531",
+    "project_id": "blue-manga-app",
+    "storage_bucket": "blue-manga-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679919396531:android:7783a9a4490316fb45b2c6",
+        "android_client_info": {
+          "package_name": "com.kk.blueManga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679919396531-a68v9s93kfn3bg9540eued0nat9gt8bg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyBwrmx_1lFaHrlLy1y7DxincGxESQR2Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679919396531-a68v9s93kfn3bg9540eued0nat9gt8bg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
