@@ -20,8 +20,8 @@ export default class Splash extends React.Component {
   };
 
   changePage(){
-      console.log(this.props);
-    // this.props.navigation.navigate('Login');
+      // console.log(this.props);
+    this.props.navigation.navigate('login');
   }
 
   render() {
@@ -36,9 +36,9 @@ export default class Splash extends React.Component {
             height: 400,
             backgroundColor: '#eee',
           }}
-          loop={true}
+          loop={false}
         autoPlay
-        // onAnimationFinish = {() => this.changePage()}
+        onAnimationFinish = {() => this.changePage()}
 
         source={require('../assets/splash.json')}
         />
